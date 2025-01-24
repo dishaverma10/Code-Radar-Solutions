@@ -2,7 +2,7 @@
 
 int main()
 {
-    char a[56],b[89];
-    scanf("%s %s",&a,&b);
-    printf("You entered: %s and %s",a,b);
+    double i;
+    scanf("%lf",&i);
+    printf("You entered: %.4lf",i);
 }
