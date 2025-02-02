@@ -1,12 +1,15 @@
 #include <stdio.h>
-
+#include <ctype.h>
 int main(){
-    int i;
-    scanf("%d",&i);
-    if(i%5==0 && i%11==0){
-        printf("Divisible");
+    char a;
+    scanf("%c",&a);
+    if(isupper(a)){
+        printf("Uppercase");
+    }
+    else if(islower(a)){
+        printf("Lowercase");
     }
     else{
-        printf("Not Divisible");
+        printf("Not an alphabet");
     }
 }
