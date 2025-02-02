@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-char* welcome() {
+int main() {
     int i;
     scanf("%d",&i);
     if(i%2==0){
