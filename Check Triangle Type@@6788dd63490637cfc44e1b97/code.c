@@ -9,7 +9,7 @@ int main(){
     else if((i==j && j!=k) || (i!=j && j==k) || (i==k && k!=j) ){
         printf("Isosceles");
     }
-    else if(i!=j || i!=j || i!=){
+    else if(i!=j || i!=j || i!=j){
         printf("Scalene");
     }
 }
