@@ -5,7 +5,7 @@ int main(){
     scanf("%d",&k);
     for(i=k;i>=1;i--){
         for(j=1;j<=k;j++){
-            if(j>=1 && j<=1){
+            if(j<=i){
                 printf("* ");
             }
             else{
