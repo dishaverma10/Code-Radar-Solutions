@@ -6,6 +6,6 @@ int main(){
     // for(int i = 1; i<=num; i++){
     //     printf("%d", i);
     // }
-   printf("%d", (n*(n+1))/2);
+   printf("%d", (num*(num+1))/2);
    return 0;
 }
