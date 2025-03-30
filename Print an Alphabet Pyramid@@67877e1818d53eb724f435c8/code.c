@@ -8,7 +8,7 @@ int main(){
             printf(" ");
         }
         for(char k = 'A'; k<'A'+i; k++){
-            printf("%c", k);
+            printf("%c ", k);
         }
         printf("\n");
     }
