@@ -12,9 +12,9 @@ int main(){
         }
         else{
             odd++;
-        }
-        printf("%d %d", even,odd);
-        return 0;
+        } 
     }
+    printf("%d %d", even,odd);
+    return 0;
 }
     
