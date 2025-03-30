@@ -11,15 +11,10 @@ int main(){
 
     for (int i = 1; i<n; i++){
         if (arr[i] < arr[i-1]){
-            sort = 0;
-            break;
-        }
-        }
-        if (sort){
-            printf("Sorted");
-        }
-        else{
             printf("Not Sorted");
+            return 0;
         }
+        }
+        printf("Sorted");
         return 0;
     }
